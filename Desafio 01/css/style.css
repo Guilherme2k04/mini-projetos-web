@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 2rem;
+}
+
+main {
+    background-color: #f5f5f5; /* Cinza mais claro */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100%;
+    width: 500px; /* Define um tamanho máximo */
+    border-radius: 10px;
+}
+
+
+p {
+    padding: 0.4rem;
+}
