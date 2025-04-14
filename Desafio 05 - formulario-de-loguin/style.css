@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d3d3d3;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    margin: 20px auto;
+    width: 50%;
+}
+
+fieldset {
+    width: 100%;
+    border: 2.5px solid #c8a2c8;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+legend {
+    font-weight: 600;
+   color: black;
+   padding: 0 0.8rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 50%;
+    color: white;
+    background-color: #c8a2c8;
+    font-weight: 700;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+footer {
+    margin-top: 100vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+header, footer {
+    padding: 20px;
+}
